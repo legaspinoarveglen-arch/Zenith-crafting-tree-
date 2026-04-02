@@ -139,4 +139,138 @@
 
         footer {
             text-align: center;
-            padding: 40px
+            padding: 40px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Zenith Crafting Tree</h1>
+    <div class="stats-bar">
+        Damage: <span>190</span> • Use Time: <span>30</span> • Crit: <span>14%</span>
+    </div>
+</header>
+
+<div class="container">
+
+    <div style="text-align:center; margin: 20px 0;">
+        -->
+    </div>
+
+    <h2>Pre-Hardmode Swords</h2>
+    <div class="grid">
+        <div class="card">
+            <div class="checkbox-container"><input type="checkbox"></div>
+            <div class="info">
+                <h3>Copper Shortsword</h3>
+                <span class="badge">Starting Item / Craftable</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="checkbox-container"><input type="checkbox"></div>
+            <div class="info">
+                <h3>Enchanted Sword</h3>
+                <span class="badge">Sword Shrines / Fishing</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="checkbox-container"><input type="checkbox"></div>
+            <div class="info">
+                <h3>Starfury</h3>
+                <span class="badge">Floating Island Chests</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="checkbox-container"><input type="checkbox"></div>
+            <div class="info">
+                <h3>Bee Keeper</h3>
+                <span class="badge">Queen Bee Drop (33%)</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-tree">
+        <h2>The Night's Edge Sub-Tree</h2>
+        <div class="recipe-box">
+            <strong>Night's Edge:</strong> Combine <em>Volcano, Muramasa, Blade of Grass,</em> and <em>Blood Butcherer/Light's Bane</em> at a Demon/Crimson Altar.
+        </div>
+        <div class="card">
+            <div class="checkbox-container"><input type="checkbox"></div>
+            <div class="info">
+                <h3>Night's Edge</h3>
+                <span class="badge">Pre-Hardmode Masterpiece</span>
+            </div>
+        </div>
+    </div>
+
+    <h2>Hardmode Boss Drops</h2>
+    <div class="grid">
+        <div class="card">
+            <div class="checkbox-container"><input type="checkbox"></div>
+            <div class="info">
+                <h3>Terra Blade</h3>
+                <span class="badge">Post-Plantera Craftable</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="checkbox-container"><input type="checkbox"></div>
+            <div class="info">
+                <h3>Seedler</h3>
+                <span class="badge">Plantera Drop (14.29%)</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="checkbox-container"><input type="checkbox"></div>
+            <div class="info">
+                <h3>The Horseman's Blade</h3>
+                <span class="badge">Pumpking (Pumpkin Moon)</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="checkbox-container"><input type="checkbox"></div>
+            <div class="info">
+                <h3>Influx Waver</h3>
+                <span class="badge">Martian Saucer (Event)</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="checkbox-container"><input type="checkbox"></div>
+            <div class="info">
+                <h3>Star Wrath</h3>
+                <span class="badge">Moon Lord Drop (11.1%)</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="checkbox-container"><input type="checkbox"></div>
+            <div class="info">
+                <h3>Meowmere</h3>
+                <span class="badge">Moon Lord Drop (11.1%)</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-tree">
+        <h2>Final Merge Requirements</h2>
+        <p>Once all boxes above are checked, bring your collection to a <strong>Mythril Anvil</strong> or <strong>Orichalcum Anvil</strong> to forge the Zenith.</p>
+    </div>
+
+    <div style="text-align:center; margin: 20px 0;">
+        -->
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Ultimate Terraria Guide Hub. Not affiliated with Re-Logic.</p>
+    </footer>
+</div>
+
+</body>
+</html>
